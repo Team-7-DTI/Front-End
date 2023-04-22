@@ -499,14 +499,13 @@ a:focus {
 
 @-webkit-keyframes pulse-border {
     0% {
-        -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0)
-            scale(1);
+        -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
         transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
         opacity: 1;
     }
+
     100% {
-        -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0)
-            scale(1.5);
+        -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
         transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
         opacity: 0;
     }
@@ -514,14 +513,13 @@ a:focus {
 
 @keyframes pulse-border {
     0% {
-        -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0)
-            scale(1);
+        -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
         transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
         opacity: 1;
     }
+
     100% {
-        -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0)
-            scale(1.5);
+        -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
         transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
         opacity: 0;
     }
@@ -594,31 +592,25 @@ a:focus {
 }
 
 .business_section .business_container .content-box.box-1 .detail {
-    background: -webkit-gradient(
-            linear,
+    background: -webkit-gradient(linear,
             left top,
             left bottom,
             from(rgba(255, 255, 255, 0.5)),
-            to(rgba(255, 255, 255, 0.5))
-        ),
+            to(rgba(255, 255, 255, 0.5))),
         url(../images/find-cover-the.png);
-    background: linear-gradient(
-            rgba(255, 255, 255, 0.5),
-            rgba(255, 255, 255, 0.5)
-        ),
+    background: linear-gradient(rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)),
         url(../images/find-cover-the.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .business_section .business_container .content-box.box-1:hover .detail {
-    background: -webkit-gradient(
-            linear,
+    background: -webkit-gradient(linear,
             left top,
             left bottom,
             from(rgba(0, 0, 0, 0.9)),
-            to(rgba(0, 0, 0, 0.9))
-        ),
+            to(rgba(0, 0, 0, 0.9))),
         url(../images/find-cover-the.png);
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
         url(../images/find-cover-the.png);
@@ -633,31 +625,25 @@ a:focus {
 }
 
 .business_section .business_container .content-box.box-2 .detail {
-    background: -webkit-gradient(
-            linear,
+    background: -webkit-gradient(linear,
             left top,
             left bottom,
             from(rgba(255, 255, 255, 0.5)),
-            to(rgba(255, 255, 255, 0.5))
-        ),
+            to(rgba(255, 255, 255, 0.5))),
         url(../images/cyber.jpg);
-    background: linear-gradient(
-            rgba(255, 255, 255, 0.5),
-            rgba(255, 255, 255, 0.5)
-        ),
+    background: linear-gradient(rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)),
         url(../images/cyber.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .business_section .business_container .content-box.box-2:hover .detail {
-    background: -webkit-gradient(
-            linear,
+    background: -webkit-gradient(linear,
             left top,
             left bottom,
             from(rgba(0, 0, 0, 0.9)),
-            to(rgba(0, 0, 0, 0.9))
-        ),
+            to(rgba(0, 0, 0, 0.9))),
         url(../images/cyber.jpg);
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
         url(../images/cyber.jpg);
@@ -672,33 +658,31 @@ a:focus {
 }
 
 .business_section .business_container .content-box.box-3 .detail {
-    background: -webkit-gradient(
-            linear,
+    background: -webkit-gradient(linear,
             left top,
             left bottom,
             from(rgba(255, 255, 255, 0.5)),
-            to(rgba(255, 255, 255, 0.5))
-        ),
+            to(rgba(255, 255, 255, 0.5))),
         url(../images/lugi-fake-cover-meme.jpg);
-    background: linear-gradient(
-            rgba(255, 255, 255, 0.5),
-            rgba(255, 255, 255, 0.5)
-        ),
+    background: linear-gradient(rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)),
         url(../images/lugi-fake-cover-meme.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .business_section .business_container .content-box.box-3:hover .detail {
-    background: -webkit-gradient(
-            linear,
+    background: -webkit-gradient(linear,
             left top,
             left bottom,
             from(rgba(0, 0, 0, 0.9)),
-            to(rgba(0, 0, 0, 0.9))
-        ),
+            to(rgba(0, 0, 0, 0.9))),
         url(../images/lugi-fake-cover-meme.jpg);
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
         url(../images/lugi-fake-cover-meme.jpg);
     color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .business_section .business_container .content-box.box-3:hover a {
