@@ -1,0 +1,7 @@
+our project "cross-website review consolidator for games" has the following functioning:
+
+1) web scraper: it scrapes the web for reviews of that game, which then feeds the reviews into a sentiment analysis model, which returns a rating between 1-10. this rating along with it's game name is pushed to mongoDB collection as a document using HTTP post request.
+
+2) Frontend: the website, where the user enter a game name which queries the web server running on localhost and returns the rating in another page.
+
+2) web server: it's running on local host, it's a HTTP get request that just returns all the records in the mongoDB collection in JSON format, which is filtered on the frontend as per the query made by the user through the search box.
